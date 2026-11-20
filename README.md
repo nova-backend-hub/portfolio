@@ -1,4 +1,4 @@
-# Dawood Portfolio & Binary Release Hub
+# Soliman Portfolio & Binary Release Hub
 
 Full-stack software portfolio featuring direct executable downloads (`.exe`, `.ipa`, `.apk`), IBM & Google AI credentials, and an authenticated Admin Studio for updating portrait/PFP, bio, projects, uploaded binaries, and certificates.
 
@@ -15,3 +15,4 @@ Default Admin Studio password: `admin1234` (changeable in the Security tab).
 ## Design system credits
 
 Built following the [unslop](https://github.com/heydamir/unslop) design ruleset by Damir Sokolovsky ([@heydamir](https://x.com/heydamir)), licensed under CC BY 4.0.
+

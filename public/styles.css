@@ -15,8 +15,8 @@
   --positive: #4cc38a;
   --negative: #e5484d;
 
-  --font-display: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
-  --font-sans: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-display: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
 
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
@@ -302,7 +302,9 @@ button {
 
 .format-tag[data-type='EXE'],
 .format-tag[data-type='IPA'],
-.format-tag[data-type='APK'] {
+.format-tag[data-type='APK'],
+.format-tag[data-type='ZIP'],
+.format-tag[data-type='WGT'] {
   color: var(--accent);
   border-color: rgba(224, 79, 46, 0.35);
 }
@@ -360,12 +362,12 @@ button {
 .hero-title {
   margin: 0 0 20px;
   font-family: var(--font-display);
-  font-weight: 500;
-  font-size: clamp(30px, 4vw, 52px);
-  line-height: 1.08;
+  font-weight: 600;
+  font-size: clamp(36px, 4.8vw, 60px);
+  line-height: 1.06;
   letter-spacing: -0.03em;
   color: var(--ink);
-  max-width: 18ch;
+  max-width: 17ch;
 }
 
 .hero-subhead {
@@ -555,10 +557,10 @@ button {
 .section-title {
   margin: 4px 0 0;
   font-family: var(--font-display);
-  font-weight: 500;
-  font-size: clamp(24px, 2.5vw, 34px);
+  font-weight: 600;
+  font-size: clamp(26px, 2.8vw, 38px);
   line-height: 1.12;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
 }
 
 .section-note {
@@ -917,9 +919,9 @@ button {
 .cert-title {
   margin: 0 0 8px;
   font-family: var(--font-display);
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 1.25;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
   color: var(--ink);
 }
 

@@ -318,9 +318,9 @@ function renderArchive() {
           <span class="ledger-size mono-num">${escapeHtml(size)}</span>
           <div class="ledger-actions">
             ${dl
-              ? `<a class="btn btn-secondary btn-sm" href="${escapeHtml(dl)}" download onclick="event.stopPropagation()">${ICON_DOWNLOAD}<span>${escapeHtml(p.downloadType)}</span></a>`
+              ? `<a class="btn btn-secondary btn-sm" href="${escapeHtml(dl)}" download>${ICON_DOWNLOAD}<span>${escapeHtml(p.downloadType)}</span></a>`
               : p.repoUrl
-                ? `<a class="btn btn-secondary btn-sm" href="${escapeHtml(p.repoUrl)}" target="_blank" rel="noreferrer" onclick="event.stopPropagation()"><span>Repo</span>${ICON_ARROW}</a>`
+                ? `<a class="btn btn-secondary btn-sm" href="${escapeHtml(p.repoUrl)}" target="_blank" rel="noreferrer"><span>Repo</span>${ICON_ARROW}</a>`
                 : '<span class="mono-meta">Local build</span>'}
           </div>
           <span class="ledger-chevron">${ICON_CHEVRON}</span>
@@ -483,6 +483,7 @@ els.archiveSearch.addEventListener('input', (e) => {
 });
 
 els.archiveList.addEventListener('click', (e) => {
+  if (e.target.closest('a, button')) return;
   const summary = e.target.closest('.ledger-summary');
   if (!summary) return;
   const row = summary.closest('.ledger-row');
@@ -534,3 +535,4 @@ window.addEventListener('resize', () => requestAnimationFrame(updateFilterGlider
 // Boot
 initHalftoneCanvas();
 refreshPortfolio().catch(() => showToast('Failed to load portfolio data'));
+

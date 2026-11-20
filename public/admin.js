@@ -168,6 +168,7 @@ function renderProjectsTab() {
               <option value="ios" ${editing.category === 'ios' ? 'selected' : ''}>iOS</option>
               <option value="android" ${editing.category === 'android' ? 'selected' : ''}>Android / TV</option>
               <option value="windows" ${editing.category === 'windows' ? 'selected' : ''}>Windows</option>
+              <option value="macos-efi" ${editing.category === 'macos-efi' ? 'selected' : ''}>macOS / EFI</option>
               <option value="ai-web" ${editing.category === 'ai-web' ? 'selected' : ''}>AI &amp; Web</option>
             </select>
           </div>
@@ -280,7 +281,7 @@ function renderSecurityTab() {
       <p class="mono-meta" style="margin:0">Update the Admin Studio password stored in <code>data/auth.json</code>.</p>
       <div class="field">
         <label>New password</label>
-        <input type="password" name="newPassword" minlength="4" required placeholder="At least 4 characters" />
+        <input type="password" name="newPassword" minlength="8" required placeholder="At least 8 characters" />
       </div>
       <button type="submit" class="btn btn-primary btn-block">Update password</button>
     </form>
@@ -515,3 +516,4 @@ window.addEventListener('keydown', (e) => {
     }
   }
 });
+

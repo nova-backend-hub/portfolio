@@ -1,546 +1,691 @@
 {
-    "profile":  {
-                    "name":  "Dawood",
-                    "handle":  "@nova-backend-hub",
-                    "headline":  "Native software, TV systems, and installable builds.",
-                    "subhead":  "Building Windows tools, sideloadable iOS applications, Android TV experiences, and local AI pipelines with direct executable releases.",
-                    "bio":  "Independent software engineer in Jordan focused on practical native tooling across iOS, Android TV, Windows, and FastAPI backends. Every shipped tool prioritizes zero-friction local networking, tactile hardware integration, and direct distribution.",
-                    "location":  "Jordan",
-                    "email":  "dawoodhh@gmail.com",
-                    "github":  "https://github.com/nova-backend-hub",
-                    "pfp":  "https://avatars.githubusercontent.com/u/269911050?v=4",
-                    "featuredIds":  [
-                                        "aeroload",
-                                        "openwii-kart",
-                                        "gatehop",
-                                        "stillclock",
-                                        "windock"
-                                    ]
-                },
-    "certificates":  [
-                         {
-                             "id":  "ibm-ai-usage",
-                             "issuer":  "IBM",
-                             "title":  "Certificate of AI Usage",
-                             "category":  "Applied AI",
-                             "date":  "2026",
-                             "credentialId":  "IBM-AI-USAGE",
-                             "verifyUrl":  "",
-                             "imageUrl":  "",
-                             "summary":  "Verified credential covering practical AI workflow integration, prompt engineering, model governance, and responsible applied deployment."
-                         },
-                         {
-                             "id":  "google-intro-ai",
-                             "issuer":  "Google",
-                             "title":  "Introduction to AI",
-                             "category":  "AI Foundations",
-                             "date":  "2026",
-                             "credentialId":  "GOOGLE-INTRO-AI",
-                             "verifyUrl":  "",
-                             "imageUrl":  "",
-                             "summary":  "Foundational certification covering machine learning principles, generative AI architectures, evaluation, and real-world product integration."
-                         }
-                     ],
-    "projects":  [
-                     {
-                         "id":  "aeroload",
-                         "title":  "AeroLoad",
-                         "tagline":  "Windows iOS sideloading suite, 7-day auto-refresher, and Apple Wallet AeroCard studio.",
-                         "description":  "High-performance Windows desktop suite featuring streaming PC-wide IPA indexing, Apple CgBI icon decoding, one-click Wi-Fi and USB signing with zsign, automated 7-day background refresh, AeroCard 3D Apple Wallet skinning via airlift without jailbreak, and Lockscreen Passcode Keypad theming.",
-                         "category":  "windows",
-                         "platform":  "Windows",
-                         "stack":  [
-                                       "Python",
-                                       "FastAPI",
-                                       "zsign",
-                                       "Three.js",
-                                       "HTML/CSS"
-                                   ],
-                         "year":  "2026",
-                         "featured":  true,
-                         "repoUrl":  "https://github.com/nova-backend-hub/AeroLoad",
-                         "downloadUrl":  "/downloads/AeroLoad.exe",
-                         "githubReleaseUrl":  "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/AeroLoad.exe",
-                         "downloadType":  "EXE",
-                         "fileSizeBytes":  81646179
-                     },
-                     {
-                         "id":  "openwii-kart",
-                         "title":  "OpenWii Mario Kart TV",
-                         "tagline":  "3D WebGL Mario Kart for Android TV driven by phone gyroscope steering.",
-                         "description":  "Standalone Android TV application pairing Three.js 3D stadium racing with a low-latency WebSocket motion server (8484/8485). Up to four phones join simultaneously as Wii Remote tilt wheels with custom gamepad focus handling tuned for 1280x720 Android TV screens.",
-                         "category":  "android",
-                         "platform":  "Android TV",
-                         "stack":  [
-                                       "Kotlin",
-                                       "Three.js",
-                                       "WebGL",
-                                       "WebSocket",
-                                       "WebView"
-                                   ],
-                         "year":  "2026",
-                         "featured":  true,
-                         "repoUrl":  "",
-                         "downloadUrl":  "/downloads/OpenWiiKart.apk",
-                         "githubReleaseUrl":  "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/OpenWiiKart.apk",
-                         "downloadType":  "APK",
-                         "fileSizeBytes":  119010978
-                     },
-                     {
-                         "id":  "tv-ios",
-                         "title":  "TV Companion (CouchTV + Kart)",
-                         "tagline":  "Native iOS shell for CouchTV menu control and 60 Hz CoreMotion Mario Kart steering.",
-                         "description":  "Sideloadable iOS WKWebView application connecting directly to Google TV over local HTTP and WebSocket without requiring Safari HTTPS certificates or prompts. Bridges native CoreMotion (CMMotionManager) at 60 Hz directly into the Wii Remote controller iframe.",
-                         "category":  "ios",
-                         "platform":  "iOS",
-                         "stack":  [
-                                       "Swift",
-                                       "WKWebView",
-                                       "CoreMotion",
-                                       "UIKit"
-                                   ],
-                         "year":  "2026",
-                         "featured":  false,
-                         "repoUrl":  "https://github.com/nova-backend-hub/tv",
-                         "downloadUrl":  "/downloads/tv.ipa",
-                         "githubReleaseUrl":  "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/tv.ipa",
-                         "downloadType":  "IPA",
-                         "fileSizeBytes":  31568
-                     },
-                     {
-                         "id":  "gatehop",
-                         "title":  "GateHop VPN Companion",
-                         "tagline":  "Live VPNGate latency prober with fastest-node selection and OpenVPN export.",
-                         "description":  "SwiftUI iPhone utility that parses live VPNGate OpenVPN feeds, measures real TCP handshake latency in milliseconds using Network.framework (NWConnection), filters by fastest node or custom country, auto-refreshes every 5 minutes, and exports .ovpn configs to OpenVPN Connect.",
-                         "category":  "ios",
-                         "platform":  "iOS",
-                         "stack":  [
-                                       "SwiftUI",
-                                       "Network.framework",
-                                       "OpenVPN"
-                                   ],
-                         "year":  "2026",
-                         "featured":  true,
-                         "repoUrl":  "https://github.com/nova-backend-hub/gatehop",
-                         "downloadUrl":  "/downloads/GateHop.ipa",
-                         "githubReleaseUrl":  "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/GateHop.ipa",
-                         "downloadType":  "IPA",
-                         "fileSizeBytes":  133750
-                     },
-                     {
-                         "id":  "couch-tv",
-                         "title":  "CouchTV Custom On-TV Build",
-                         "tagline":  "Ad-free smart TV launcher and phone remote with integrated Mario Kart lobby.",
-                         "description":  "Custom Android TV APK and React/Vite phone remote featuring glass clock screens, unified Continue Watching, Sleep Timer, local CA HTTPS profile provisioning for iOS, and direct launching into the OpenWii Mario Kart lobby.",
-                         "category":  "android",
-                         "platform":  "Android TV",
-                         "stack":  [
-                                       "Kotlin",
-                                       "React",
-                                       "Vite",
-                                       "NanoHTTPD"
-                                   ],
-                         "year":  "2026",
-                         "featured":  false,
-                         "repoUrl":  "",
-                         "downloadUrl":  "/downloads/CouchTV.apk",
-                         "githubReleaseUrl":  "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/CouchTV.apk",
-                         "downloadType":  "APK",
-                         "fileSizeBytes":  36005661
-                     },
-                     {
-                         "id":  "stillclock",
-                         "title":  "StillClock",
-                         "tagline":  "Developer syntax clock with Jordan Awqaf prayer times and 3-day weather.",
-                         "description":  "Minimalist iOS dark-mode clock styled as const now = code structure, integrating Jordan Awqaf (Method 23) prayer calculations across 12 cities, +30m/-10m dynamic Athan countdown states, home screen WidgetKit support, and a 3-day weather forecast.",
-                         "category":  "ios",
-                         "platform":  "iOS",
-                         "stack":  [
-                                       "SwiftUI",
-                                       "WidgetKit",
-                                       "Aladhan API"
-                                   ],
-                         "year":  "2026",
-                         "featured":  true,
-                         "repoUrl":  "https://github.com/nova-backend-hub/StillClockApp",
-                         "downloadUrl":  "/downloads/StillClock.ipa",
-                         "githubReleaseUrl":  "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/StillClock.ipa",
-                         "downloadType":  "IPA",
-                         "fileSizeBytes":  269313
-                     },
-                     {
-                         "id":  "windock",
-                         "title":  "WinDock",
-                         "tagline":  "iPhone tactile Wi-Fi squircle dock and StandBy clock for Windows app launching.",
-                         "description":  "Pairs an iOS frosted Cupertino app dock (8-app grid or 4-app + live StandBy clock layout) with a Windows listener to launch browsers, IDEs, games, and custom .exe commands over local Wi-Fi.",
-                         "category":  "ios",
-                         "platform":  "iOS",
-                         "stack":  [
-                                       "SwiftUI",
-                                       "Python",
-                                       "PWA"
-                                   ],
-                         "year":  "2026",
-                         "featured":  true,
-                         "repoUrl":  "https://github.com/nova-backend-hub/dawood67",
-                         "downloadUrl":  "/downloads/WinDock.ipa",
-                         "githubReleaseUrl":  "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/WinDock.ipa",
-                         "downloadType":  "IPA",
-                         "fileSizeBytes":  158517
-                     },
-                     {
-                         "id":  "heartive-ios",
-                         "title":  "Heartive iOS",
-                         "tagline":  "Native iPhone media wrapper with dark midnight chrome and fullscreen playback.",
-                         "description":  "SwiftUI iOS wrapper featuring a 5-tab navigation shell (Home, Movies, Series, Search, My List), inline playback controls, and automatic landscape orientation handling for video streams.",
-                         "category":  "ios",
-                         "platform":  "iOS",
-                         "stack":  [
-                                       "SwiftUI",
-                                       "WebKit",
-                                       "UIKit"
-                                   ],
-                         "year":  "2026",
-                         "featured":  false,
-                         "repoUrl":  "https://github.com/nova-backend-hub/HeartiveApp",
-                         "downloadUrl":  "/downloads/Heartive.ipa",
-                         "githubReleaseUrl":  "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/Heartive.ipa",
-                         "downloadType":  "IPA",
-                         "fileSizeBytes":  226648
-                     },
-                     {
-                         "id":  "heartive-tv",
-                         "title":  "Heartive TV",
-                         "tagline":  "Leanback fullscreen Android TV client with D-Pad focus navigation.",
-                         "description":  "Native Android TV APK compiled with Leanback launcher support, hardware acceleration, cleartext LAN support, and remote D-Pad mapping for big-screen viewing.",
-                         "category":  "android",
-                         "platform":  "Android TV",
-                         "stack":  [
-                                       "Kotlin",
-                                       "Android Leanback",
-                                       "WebView"
-                                   ],
-                         "year":  "2026",
-                         "featured":  false,
-                         "repoUrl":  "",
-                         "downloadUrl":  "/downloads/HeartiveTV.apk",
-                         "githubReleaseUrl":  "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/HeartiveTV.apk",
-                         "downloadType":  "APK",
-                         "fileSizeBytes":  1631602
-                     },
-                     {
-                         "id":  "tracker-android",
-                         "title":  "Tracker Android",
-                         "tagline":  "Minimal daily checklist APK with Room persistence and automated 12:00 PM resets.",
-                         "description":  "Native Android app built with Room database, swipe-to-delete with undo, live completion progress bar, and reboot-safe AlarmManager scheduling that resets daily tasks at noon.",
-                         "category":  "android",
-                         "platform":  "Android",
-                         "stack":  [
-                                       "Kotlin",
-                                       "Room DB",
-                                       "Material Components"
-                                   ],
-                         "year":  "2026",
-                         "featured":  false,
-                         "repoUrl":  "",
-                         "downloadUrl":  "/downloads/Tracker.apk",
-                         "githubReleaseUrl":  "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/Tracker.apk",
-                         "downloadType":  "APK",
-                         "fileSizeBytes":  9389724
-                     },
-                     {
-                         "id":  "tracker-site",
-                         "title":  "Tracker Release Site",
-                         "tagline":  "Static web landing and direct APK distribution page deployed for Tracker.",
-                         "description":  "Clean dark-surface landing page showcasing Tracker features, interactive visual previews, and one-tap APK distribution configured for Vercel hosting.",
-                         "category":  "ai-web",
-                         "platform":  "Web",
-                         "stack":  [
-                                       "HTML",
-                                       "CSS",
-                                       "Vercel"
-                                   ],
-                         "year":  "2026",
-                         "featured":  false,
-                         "repoUrl":  "",
-                         "downloadUrl":  "/downloads/Tracker.apk",
-                         "githubReleaseUrl":  "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/Tracker.apk",
-                         "downloadType":  "APK",
-                         "fileSizeBytes":  9389724
-                     },
-                     {
-                         "id":  "mahmoud",
-                         "title":  "Mahmoud â€” Personal AI OS",
-                         "tagline":  "FastAPI tool-calling AI assistant paired with a native SwiftUI voice client.",
-                         "description":  "Personal AI orchestration server supporting extensible tool connectors and LLM provider routing, paired with an iOS SwiftUI app featuring Speech recognition and AVFoundation voice interaction.",
-                         "category":  "ai-web",
-                         "platform":  "AI / iOS",
-                         "stack":  [
-                                       "Python",
-                                       "FastAPI",
-                                       "SwiftUI",
-                                       "Speech"
-                                   ],
-                         "year":  "2026",
-                         "featured":  false,
-                         "repoUrl":  "",
-                         "downloadUrl":  "",
-                         "githubReleaseUrl":  "",
-                         "downloadType":  "LOCAL",
-                         "fileSizeBytes":  0
-                     },
-                     {
-                         "id":  "youvid",
-                         "title":  "Youvid 3D Studio",
-                         "tagline":  "Automated AI video director and Three.js 3D scene renderer.",
-                         "description":  "FastAPI production server combining automated prompt-to-storyboard direction (director.py) with deterministic 3D Three.js stage rendering and MP4 output synthesis.",
-                         "category":  "ai-web",
-                         "platform":  "AI / Web",
-                         "stack":  [
-                                       "Python",
-                                       "FastAPI",
-                                       "Three.js",
-                                       "FFmpeg"
-                                   ],
-                         "year":  "2026",
-                         "featured":  false,
-                         "repoUrl":  "",
-                         "downloadUrl":  "",
-                         "githubReleaseUrl":  "",
-                         "downloadType":  "LOCAL",
-                         "fileSizeBytes":  0
-                     },
-                     {
-                         "id":  "dawood67-remote",
-                         "title":  "Dawood67 Samsung Remote",
-                         "tagline":  "Native iPhone hardware-volume remote and 257+ app launcher for rooted Samsung Tizen TV.",
-                         "description":  "Connects directly to Vetro on Samsung Tizen TVs over LAN, intercepts iPhone physical Volume Up/Down presses to send XF86Audio volume keys, renders 34 D-Pad/media controls, and searches 257+ installed TV apps.",
-                         "category":  "ios",
-                         "platform":  "iOS",
-                         "stack":  [
-                                       "Swift",
-                                       "UIKit",
-                                       "Tizen Vetro"
-                                   ],
-                         "year":  "2026",
-                         "featured":  false,
-                         "repoUrl":  "https://github.com/nova-backend-hub/Dawood67Remote",
-                         "downloadUrl":  "",
-                         "githubReleaseUrl":  "",
-                         "downloadType":  "REPO",
-                         "fileSizeBytes":  0
-                     },
-                     {
-                         "id":  "year-view-calendar",
-                         "title":  "Year View Calendar",
-                         "tagline":  "Native EventKit full-year iOS calendar built with GitHub Actions IPA automation.",
-                         "description":  "Compact year-at-a-glance iOS calendar reading native EventKit calendars so months, density, and schedules remain scannable on mobile screens.",
-                         "category":  "ios",
-                         "platform":  "iOS",
-                         "stack":  [
-                                       "Swift",
-                                       "EventKit",
-                                       "SwiftUI"
-                                   ],
-                         "year":  "2026",
-                         "featured":  false,
-                         "repoUrl":  "https://github.com/nova-backend-hub/year-view-calendar-ios",
-                         "downloadUrl":  "/downloads/YearViewCalendar.ipa",
-                         "githubReleaseUrl":  "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/YearViewCalendar.ipa",
-                         "downloadType":  "IPA",
-                         "fileSizeBytes":  121604
-                     },
-                     {
-                         "id":  "dawood-counter",
-                         "title":  "DawoodCounter",
-                         "tagline":  "Native iOS signed tally and quick counter application.",
-                         "description":  "Lightweight Swift utility for fast one-handed counting, persistent totals, and tactile haptic increments on iPhone.",
-                         "category":  "ios",
-                         "platform":  "iOS",
-                         "stack":  [
-                                       "Swift",
-                                       "UIKit"
-                                   ],
-                         "year":  "2026",
-                         "featured":  false,
-                         "repoUrl":  "https://github.com/nova-backend-hub/dawoodcounter",
-                         "downloadUrl":  "/downloads/DawoodCounter.ipa",
-                         "githubReleaseUrl":  "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/DawoodCounter.ipa",
-                         "downloadType":  "IPA",
-                         "fileSizeBytes":  3026433
-                     },
-                     {
-                         "id":  "prime-movies",
-                         "title":  "PrimeMovies \u0026 PrimeCinemas",
-                         "tagline":  "iOS cinema discovery and playback companion packaged as an unsigned IPA.",
-                         "description":  "Native Swift iPhone application for browsing curated movies and cinema listings with automated cloud IPA builds.",
-                         "category":  "ios",
-                         "platform":  "iOS",
-                         "stack":  [
-                                       "Swift",
-                                       "SwiftUI"
-                                   ],
-                         "year":  "2026",
-                         "featured":  false,
-                         "repoUrl":  "https://github.com/nova-backend-hub/PrimeMovies",
-                         "downloadUrl":  "/downloads/PrimeMovies.ipa",
-                         "githubReleaseUrl":  "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/PrimeMovies.ipa",
-                         "downloadType":  "IPA",
-                         "fileSizeBytes":  101916
-                     },
-                     {
-                         "id":  "dawood-files",
-                         "title":  "DawoodFiles",
-                         "tagline":  "Private iPhone-to-Samsung Tizen TV media transfer and library browser.",
-                         "description":  "Personal media bridge enabling iPhone file indexing and casting directly to a rooted Samsung Tizen smart TV on the local network.",
-                         "category":  "ios",
-                         "platform":  "iOS",
-                         "stack":  [
-                                       "Swift",
-                                       "Samsung Tizen",
-                                       "HTTP"
-                                   ],
-                         "year":  "2026",
-                         "featured":  false,
-                         "repoUrl":  "https://github.com/nova-backend-hub/DawoodFiles",
-                         "downloadUrl":  "/downloads/DawoodFiles.ipa",
-                         "githubReleaseUrl":  "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/DawoodFiles.ipa",
-                         "downloadType":  "IPA",
-                         "fileSizeBytes":  153441
-                     },
-                     {
-                         "id":  "dawood-list",
-                         "title":  "DawoodList",
-                         "tagline":  "Personal iPhone task and quick-list application built in Swift.",
-                         "description":  "Distraction-free iOS checklist app tailored for fast daily task capture and automated GitHub Actions IPA distribution.",
-                         "category":  "ios",
-                         "platform":  "iOS",
-                         "stack":  [
-                                       "Swift",
-                                       "SwiftUI"
-                                   ],
-                         "year":  "2026",
-                         "featured":  false,
-                         "repoUrl":  "https://github.com/nova-backend-hub/DawoodList",
-                         "downloadUrl":  "/downloads/DawoodList.ipa",
-                         "githubReleaseUrl":  "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/DawoodList.ipa",
-                         "downloadType":  "IPA",
-                         "fileSizeBytes":  107959
-                     },
-                     {
-                         "id":  "scinsta-release",
-                         "title":  "SCInsta Sideloaded Build",
-                         "tagline":  "Packaged iOS social client release hosted for direct sideloading.",
-                         "description":  "Configured Instagram tweak IPA packaged for direct download and sideloading via AeroLoad or Sideloadly alongside RyukGram tooling.",
-                         "category":  "ios",
-                         "platform":  "iOS",
-                         "stack":  [
-                                       "iOS",
-                                       "IPA Packaging"
-                                   ],
-                         "year":  "2026",
-                         "featured":  false,
-                         "repoUrl":  "https://github.com/nova-backend-hub/SCInsta",
-                         "downloadUrl":  "https://github.com/nova-backend-hub/SCInsta/releases/download/untagged-60a0a3914e37f271f70e/SCInsta_sideloaded_v1.1.1.ipa",
-                         "githubReleaseUrl":  "https://github.com/nova-backend-hub/SCInsta/releases/download/untagged-60a0a3914e37f271f70e/SCInsta_sideloaded_v1.1.1.ipa",
-                         "downloadType":  "IPA",
-                         "fileSizeBytes":  0
-                     },
-                     {
-                         "id":  "ghadmin",
-                         "title":  "GardenHosting Admin",
-                         "tagline":  "Mobile iOS administration companion for GardenHosting infrastructure.",
-                         "description":  "Swift iOS administrative client built to monitor and manage GardenHosting accounts and services on the go.",
-                         "category":  "ios",
-                         "platform":  "iOS",
-                         "stack":  [
-                                       "Swift",
-                                       "REST API"
-                                   ],
-                         "year":  "2026",
-                         "featured":  false,
-                         "repoUrl":  "https://github.com/nova-backend-hub/ghadmin",
-                         "downloadUrl":  "",
-                         "githubReleaseUrl":  "",
-                         "downloadType":  "REPO",
-                         "fileSizeBytes":  0
-                     },
-                     {
-                         "id":  "wathiqa-ios",
-                         "title":  "Wathiqa Document Vault",
-                         "tagline":  "Private iPhone document vault with macOS IPA build workflow.",
-                         "description":  "Protected document storage utility compiled for iOS through automated macOS runner packaging.",
-                         "category":  "ios",
-                         "platform":  "iOS",
-                         "stack":  [
-                                       "iOS",
-                                       "macOS CI"
-                                   ],
-                         "year":  "2026",
-                         "featured":  false,
-                         "repoUrl":  "https://github.com/nova-backend-hub/wathiqa-ios",
-                         "downloadUrl":  "",
-                         "githubReleaseUrl":  "",
-                         "downloadType":  "REPO",
-                         "fileSizeBytes":  0
-                     },
-                     {
-                         "id":  "recipebook",
-                         "title":  "RecipeBook",
-                         "tagline":  "TypeScript web recipe organizer with structured ingredient tracking.",
-                         "description":  "Typed web application for indexing, browsing, and organizing personal cooking recipes cleanly.",
-                         "category":  "ai-web",
-                         "platform":  "Web",
-                         "stack":  [
-                                       "TypeScript",
-                                       "HTML/CSS"
-                                   ],
-                         "year":  "2026",
-                         "featured":  false,
-                         "repoUrl":  "https://github.com/nova-backend-hub/recipebook",
-                         "downloadUrl":  "",
-                         "githubReleaseUrl":  "",
-                         "downloadType":  "REPO",
-                         "fileSizeBytes":  0
-                     },
-                     {
-                         "id":  "check-in",
-                         "title":  "Check-In",
-                         "tagline":  "Zero-dependency HTML check-in web utility.",
-                         "description":  "Lightweight browser utility built in vanilla HTML/CSS/JS for rapid status and attendance check-ins.",
-                         "category":  "ai-web",
-                         "platform":  "Web",
-                         "stack":  [
-                                       "HTML",
-                                       "JavaScript"
-                                   ],
-                         "year":  "2026",
-                         "featured":  false,
-                         "repoUrl":  "https://github.com/nova-backend-hub/check-in",
-                         "downloadUrl":  "",
-                         "githubReleaseUrl":  "",
-                         "downloadType":  "REPO",
-                         "fileSizeBytes":  0
-                     },
-                     {
-                         "id":  "nova-suite",
-                         "title":  "Nova Ecosystem",
-                         "tagline":  "Multi-part Nova client, backend API service, and core Nova workspace.",
-                         "description":  "Full-stack Nova platform uniting nova-backend (JavaScript server services), NovaClient interface, and Nova core modules.",
-                         "category":  "ai-web",
-                         "platform":  "Full Stack",
-                         "stack":  [
-                                       "JavaScript",
-                                       "Node.js",
-                                       "REST API"
-                                   ],
-                         "year":  "2026",
-                         "featured":  false,
-                         "repoUrl":  "https://github.com/nova-backend-hub/Nova",
-                         "downloadUrl":  "",
-                         "githubReleaseUrl":  "",
-                         "downloadType":  "REPO",
-                         "fileSizeBytes":  0
-                     }
-                 ]
+  "profile": {
+    "name": "Soliman",
+    "handle": "@tuffsoliman",
+    "headline": "Native software, TV systems, and installable builds.",
+    "subhead": "Building Windows tools, sideloadable iOS applications, Android TV experiences, and local AI pipelines with direct executable releases.",
+    "bio": "Independent software engineer focused on practical native tooling across iOS, Android TV, Windows, and FastAPI backends. Every shipped tool prioritizes zero-friction local networking, tactile hardware integration, and direct distribution.",
+    "location": "JO",
+    "email": "soliyusef@proton.me",
+    "github": "https://github.com/nova-backend-hub",
+    "pfp": "https://avatars.githubusercontent.com/u/269911050?v=4",
+    "featuredIds": [
+      "aeroload",
+      "openwii-kart",
+      "gatehop",
+      "stillclock",
+      "windock"
+    ]
+  },
+  "certificates": [
+    {
+      "id": "ibm-ai-usage",
+      "issuer": "IBM",
+      "title": "Certificate of AI Usage",
+      "category": "Applied AI",
+      "date": "2026",
+      "credentialId": "IBM-AI-USAGE",
+      "verifyUrl": "",
+      "imageUrl": "",
+      "summary": "Verified credential covering practical AI workflow integration, prompt engineering, model governance, and responsible applied deployment."
+    },
+    {
+      "id": "google-intro-ai",
+      "issuer": "Google",
+      "title": "Introduction to AI",
+      "category": "AI Foundations",
+      "date": "2026",
+      "credentialId": "GOOGLE-INTRO-AI",
+      "verifyUrl": "",
+      "imageUrl": "",
+      "summary": "Foundational certification covering machine learning principles, generative AI architectures, evaluation, and real-world product integration."
+    }
+  ],
+  "projects": [
+    {
+      "id": "aeroload",
+      "title": "AeroLoad",
+      "tagline": "Windows iOS sideloading suite, 7-day auto-refresher, and Apple Wallet AeroCard studio.",
+      "description": "High-performance Windows desktop suite featuring streaming PC-wide IPA indexing, Apple CgBI icon decoding, one-click Wi-Fi and USB signing with zsign, automated 7-day background refresh, AeroCard 3D Apple Wallet skinning via airlift without jailbreak, and Lockscreen Passcode Keypad theming.",
+      "category": "windows",
+      "platform": "Windows",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "zsign",
+        "Three.js",
+        "HTML/CSS"
+      ],
+      "year": "2026",
+      "featured": true,
+      "repoUrl": "https://github.com/nova-backend-hub/AeroLoad",
+      "downloadUrl": "/downloads/AeroLoad.exe",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/AeroLoad.exe",
+      "downloadType": "EXE",
+      "fileSizeBytes": 81646179
+    },
+    {
+      "id": "openwii-kart",
+      "title": "OpenWii Mario Kart TV",
+      "tagline": "3D WebGL Mario Kart for Android TV driven by phone gyroscope steering.",
+      "description": "Standalone Android TV application pairing Three.js 3D stadium racing with a low-latency WebSocket motion server (8484/8485). Up to four phones join simultaneously as Wii Remote tilt wheels with custom gamepad focus handling tuned for 1280x720 Android TV screens.",
+      "category": "android",
+      "platform": "Android TV",
+      "stack": [
+        "Kotlin",
+        "Three.js",
+        "WebGL",
+        "WebSocket",
+        "WebView"
+      ],
+      "year": "2026",
+      "featured": true,
+      "repoUrl": "",
+      "downloadUrl": "/downloads/OpenWiiKart.apk",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/OpenWiiKart.apk",
+      "downloadType": "APK",
+      "fileSizeBytes": 119010978
+    },
+    {
+      "id": "tv-ios",
+      "title": "TV Companion (CouchTV + Kart)",
+      "tagline": "Native iOS shell for CouchTV menu control and 60 Hz CoreMotion Mario Kart steering.",
+      "description": "Sideloadable iOS WKWebView application connecting directly to Google TV over local HTTP and WebSocket without requiring Safari HTTPS certificates or prompts. Bridges native CoreMotion (CMMotionManager) at 60 Hz directly into the Wii Remote controller iframe.",
+      "category": "ios",
+      "platform": "iOS",
+      "stack": [
+        "Swift",
+        "WKWebView",
+        "CoreMotion",
+        "UIKit"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "https://github.com/nova-backend-hub/tv",
+      "downloadUrl": "/downloads/tv.ipa",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/tv.ipa",
+      "downloadType": "IPA",
+      "fileSizeBytes": 31568
+    },
+    {
+      "id": "gatehop",
+      "title": "GateHop VPN Companion",
+      "tagline": "Live VPNGate latency prober with fastest-node selection and OpenVPN export.",
+      "description": "SwiftUI iPhone utility that parses live VPNGate OpenVPN feeds, measures real TCP handshake latency in milliseconds using Network.framework (NWConnection), filters by fastest node or custom country, auto-refreshes every 5 minutes, and exports .ovpn configs to OpenVPN Connect.",
+      "category": "ios",
+      "platform": "iOS",
+      "stack": [
+        "SwiftUI",
+        "Network.framework",
+        "OpenVPN"
+      ],
+      "year": "2026",
+      "featured": true,
+      "repoUrl": "https://github.com/nova-backend-hub/gatehop",
+      "downloadUrl": "/downloads/GateHop.ipa",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/GateHop.ipa",
+      "downloadType": "IPA",
+      "fileSizeBytes": 133750
+    },
+    {
+      "id": "couch-tv",
+      "title": "CouchTV Custom On-TV Build",
+      "tagline": "Ad-free smart TV launcher and phone remote with integrated Mario Kart lobby.",
+      "description": "Custom Android TV APK and React/Vite phone remote featuring glass clock screens, unified Continue Watching, Sleep Timer, local CA HTTPS profile provisioning for iOS, and direct launching into the OpenWii Mario Kart lobby.",
+      "category": "android",
+      "platform": "Android TV",
+      "stack": [
+        "Kotlin",
+        "React",
+        "Vite",
+        "NanoHTTPD"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "",
+      "downloadUrl": "/downloads/CouchTV.apk",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/CouchTV.apk",
+      "downloadType": "APK",
+      "fileSizeBytes": 36005661
+    },
+    {
+      "id": "stillclock",
+      "title": "StillClock",
+      "tagline": "Developer syntax clock with Jordan Awqaf prayer times and 3-day weather.",
+      "description": "Minimalist iOS dark-mode clock styled as const now = code structure, integrating Jordan Awqaf (Method 23) prayer calculations across 12 cities, +30m/-10m dynamic Athan countdown states, home screen WidgetKit support, and a 3-day weather forecast.",
+      "category": "ios",
+      "platform": "iOS",
+      "stack": [
+        "SwiftUI",
+        "WidgetKit",
+        "Aladhan API"
+      ],
+      "year": "2026",
+      "featured": true,
+      "repoUrl": "https://github.com/nova-backend-hub/StillClockApp",
+      "downloadUrl": "/downloads/StillClock.ipa",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/StillClock.ipa",
+      "downloadType": "IPA",
+      "fileSizeBytes": 269313
+    },
+    {
+      "id": "windock",
+      "title": "WinDock",
+      "tagline": "iPhone tactile Wi-Fi squircle dock and StandBy clock for Windows app launching.",
+      "description": "Pairs an iOS frosted Cupertino app dock (8-app grid or 4-app + live StandBy clock layout) with a Windows listener to launch browsers, IDEs, games, and custom .exe commands over local Wi-Fi.",
+      "category": "ios",
+      "platform": "iOS",
+      "stack": [
+        "SwiftUI",
+        "Python",
+        "PWA"
+      ],
+      "year": "2026",
+      "featured": true,
+      "repoUrl": "https://github.com/nova-backend-hub/dawood67",
+      "downloadUrl": "/downloads/WinDock.ipa",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/WinDock.ipa",
+      "downloadType": "IPA",
+      "fileSizeBytes": 158517
+    },
+    {
+      "id": "heartive-ios",
+      "title": "Heartive iOS",
+      "tagline": "Native iPhone media wrapper with dark midnight chrome and fullscreen playback.",
+      "description": "SwiftUI iOS wrapper featuring a 5-tab navigation shell (Home, Movies, Series, Search, My List), inline playback controls, and automatic landscape orientation handling for video streams.",
+      "category": "ios",
+      "platform": "iOS",
+      "stack": [
+        "SwiftUI",
+        "WebKit",
+        "UIKit"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "https://github.com/nova-backend-hub/HeartiveApp",
+      "downloadUrl": "/downloads/Heartive.ipa",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/Heartive.ipa",
+      "downloadType": "IPA",
+      "fileSizeBytes": 226648
+    },
+    {
+      "id": "heartive-tv",
+      "title": "Heartive TV",
+      "tagline": "Leanback fullscreen Android TV client with D-Pad focus navigation.",
+      "description": "Native Android TV APK compiled with Leanback launcher support, hardware acceleration, cleartext LAN support, and remote D-Pad mapping for big-screen viewing.",
+      "category": "android",
+      "platform": "Android TV",
+      "stack": [
+        "Kotlin",
+        "Android Leanback",
+        "WebView"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "",
+      "downloadUrl": "/downloads/HeartiveTV.apk",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/HeartiveTV.apk",
+      "downloadType": "APK",
+      "fileSizeBytes": 1631602
+    },
+    {
+      "id": "tracker-android",
+      "title": "Tracker Android",
+      "tagline": "Minimal daily checklist APK with Room persistence and automated 12:00 PM resets.",
+      "description": "Native Android app built with Room database, swipe-to-delete with undo, live completion progress bar, and reboot-safe AlarmManager scheduling that resets daily tasks at noon.",
+      "category": "android",
+      "platform": "Android",
+      "stack": [
+        "Kotlin",
+        "Room DB",
+        "Material Components"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "",
+      "downloadUrl": "/downloads/Tracker.apk",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/Tracker.apk",
+      "downloadType": "APK",
+      "fileSizeBytes": 9389724
+    },
+    {
+      "id": "tracker-site",
+      "title": "Tracker Release Site",
+      "tagline": "Static web landing and direct APK distribution page deployed for Tracker.",
+      "description": "Clean dark-surface landing page showcasing Tracker features, interactive visual previews, and one-tap APK distribution configured for Vercel hosting.",
+      "category": "ai-web",
+      "platform": "Web",
+      "stack": [
+        "HTML",
+        "CSS",
+        "Vercel"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "",
+      "downloadUrl": "/downloads/Tracker.apk",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/Tracker.apk",
+      "downloadType": "APK",
+      "fileSizeBytes": 9389724
+    },
+    {
+      "id": "mahmoud",
+      "title": "Mahmoud â€” Personal AI OS",
+      "tagline": "FastAPI tool-calling AI assistant paired with a native SwiftUI voice client.",
+      "description": "Personal AI orchestration server supporting extensible tool connectors and LLM provider routing, paired with an iOS SwiftUI app featuring Speech recognition and AVFoundation voice interaction.",
+      "category": "ai-web",
+      "platform": "AI / iOS",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "SwiftUI",
+        "Speech"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "",
+      "downloadUrl": "",
+      "githubReleaseUrl": "",
+      "downloadType": "LOCAL",
+      "fileSizeBytes": 0
+    },
+    {
+      "id": "youvid",
+      "title": "Youvid 3D Studio",
+      "tagline": "Automated AI video director and Three.js 3D scene renderer.",
+      "description": "FastAPI production server combining automated prompt-to-storyboard direction (director.py) with deterministic 3D Three.js stage rendering and MP4 output synthesis.",
+      "category": "ai-web",
+      "platform": "AI / Web",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Three.js",
+        "FFmpeg"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "",
+      "downloadUrl": "",
+      "githubReleaseUrl": "",
+      "downloadType": "LOCAL",
+      "fileSizeBytes": 0
+    },
+    {
+      "id": "dawood67-remote",
+      "title": "Dawood67 Samsung Remote",
+      "tagline": "Native iPhone hardware-volume remote and 257+ app launcher for rooted Samsung Tizen TV.",
+      "description": "Connects directly to Vetro on Samsung Tizen TVs over LAN, intercepts iPhone physical Volume Up/Down presses to send XF86Audio volume keys, renders 34 D-Pad/media controls, and searches 257+ installed TV apps.",
+      "category": "ios",
+      "platform": "iOS",
+      "stack": [
+        "Swift",
+        "UIKit",
+        "Tizen Vetro"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "https://github.com/nova-backend-hub/Dawood67Remote",
+      "downloadUrl": "",
+      "githubReleaseUrl": "",
+      "downloadType": "REPO",
+      "fileSizeBytes": 0
+    },
+    {
+      "id": "year-view-calendar",
+      "title": "Year View Calendar",
+      "tagline": "Native EventKit full-year iOS calendar built with GitHub Actions IPA automation.",
+      "description": "Compact year-at-a-glance iOS calendar reading native EventKit calendars so months, density, and schedules remain scannable on mobile screens.",
+      "category": "ios",
+      "platform": "iOS",
+      "stack": [
+        "Swift",
+        "EventKit",
+        "SwiftUI"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "https://github.com/nova-backend-hub/year-view-calendar-ios",
+      "downloadUrl": "/downloads/YearViewCalendar.ipa",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/YearViewCalendar.ipa",
+      "downloadType": "IPA",
+      "fileSizeBytes": 121604
+    },
+    {
+      "id": "dawood-counter",
+      "title": "DawoodCounter",
+      "tagline": "Native iOS signed tally and quick counter application.",
+      "description": "Lightweight Swift utility for fast one-handed counting, persistent totals, and tactile haptic increments on iPhone.",
+      "category": "ios",
+      "platform": "iOS",
+      "stack": [
+        "Swift",
+        "UIKit"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "https://github.com/nova-backend-hub/dawoodcounter",
+      "downloadUrl": "/downloads/DawoodCounter.ipa",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/DawoodCounter.ipa",
+      "downloadType": "IPA",
+      "fileSizeBytes": 3026433
+    },
+    {
+      "id": "prime-movies",
+      "title": "PrimeMovies & PrimeCinemas",
+      "tagline": "iOS cinema discovery and playback companion packaged as an unsigned IPA.",
+      "description": "Native Swift iPhone application for browsing curated movies and cinema listings with automated cloud IPA builds.",
+      "category": "ios",
+      "platform": "iOS",
+      "stack": [
+        "Swift",
+        "SwiftUI"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "https://github.com/nova-backend-hub/PrimeMovies",
+      "downloadUrl": "/downloads/PrimeMovies.ipa",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/PrimeMovies.ipa",
+      "downloadType": "IPA",
+      "fileSizeBytes": 101916
+    },
+    {
+      "id": "dawood-files",
+      "title": "DawoodFiles",
+      "tagline": "Private iPhone-to-Samsung Tizen TV media transfer and library browser.",
+      "description": "Personal media bridge enabling iPhone file indexing and casting directly to a rooted Samsung Tizen smart TV on the local network.",
+      "category": "ios",
+      "platform": "iOS",
+      "stack": [
+        "Swift",
+        "Samsung Tizen",
+        "HTTP"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "https://github.com/nova-backend-hub/DawoodFiles",
+      "downloadUrl": "/downloads/DawoodFiles.ipa",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/DawoodFiles.ipa",
+      "downloadType": "IPA",
+      "fileSizeBytes": 153441
+    },
+    {
+      "id": "dawood-list",
+      "title": "DawoodList",
+      "tagline": "Personal iPhone task and quick-list application built in Swift.",
+      "description": "Distraction-free iOS checklist app tailored for fast daily task capture and automated GitHub Actions IPA distribution.",
+      "category": "ios",
+      "platform": "iOS",
+      "stack": [
+        "Swift",
+        "SwiftUI"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "https://github.com/nova-backend-hub/DawoodList",
+      "downloadUrl": "/downloads/DawoodList.ipa",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/DawoodList.ipa",
+      "downloadType": "IPA",
+      "fileSizeBytes": 107959
+    },
+    {
+      "id": "scinsta-release",
+      "title": "SCInsta Sideloaded Build",
+      "tagline": "Packaged iOS social client release hosted for direct sideloading.",
+      "description": "Configured Instagram tweak IPA packaged for direct download and sideloading via AeroLoad or Sideloadly alongside RyukGram tooling.",
+      "category": "ios",
+      "platform": "iOS",
+      "stack": [
+        "iOS",
+        "IPA Packaging"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "https://github.com/nova-backend-hub/SCInsta",
+      "downloadUrl": "https://github.com/nova-backend-hub/SCInsta/releases/download/untagged-60a0a3914e37f271f70e/SCInsta_sideloaded_v1.1.1.ipa",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/SCInsta/releases/download/untagged-60a0a3914e37f271f70e/SCInsta_sideloaded_v1.1.1.ipa",
+      "downloadType": "IPA",
+      "fileSizeBytes": 0
+    },
+    {
+      "id": "ghadmin",
+      "title": "GardenHosting Admin",
+      "tagline": "Mobile iOS administration companion for GardenHosting infrastructure.",
+      "description": "Swift iOS administrative client built to monitor and manage GardenHosting accounts and services on the go.",
+      "category": "ios",
+      "platform": "iOS",
+      "stack": [
+        "Swift",
+        "REST API"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "https://github.com/nova-backend-hub/ghadmin",
+      "downloadUrl": "",
+      "githubReleaseUrl": "",
+      "downloadType": "REPO",
+      "fileSizeBytes": 0
+    },
+    {
+      "id": "wathiqa-ios",
+      "title": "Wathiqa 2.0 Document Vault",
+      "tagline": "Private iPhone document vault with Arabic/English search tags, expiry alerts, AirPrint, and .ics calendar export.",
+      "description": "Protected iOS family document vault (Wathiqa 2.0) featuring editable categories and tags, expiry countdown alerts, Archive/Trash recovery, AirPrint sharing, and .ics renewal calendar export.",
+      "category": "ios",
+      "platform": "iOS",
+      "stack": [
+        "Swift",
+        "AirPrint",
+        "ICS Calendar"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "https://github.com/nova-backend-hub/wathiqa-ios",
+      "downloadUrl": "/downloads/Wathiqa.ipa",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/Wathiqa.ipa",
+      "downloadType": "IPA",
+      "fileSizeBytes": 2673848
+    },
+    {
+      "id": "recipebook",
+      "title": "RecipeBook",
+      "tagline": "TypeScript web recipe organizer with structured ingredient tracking.",
+      "description": "Typed web application for indexing, browsing, and organizing personal cooking recipes cleanly.",
+      "category": "ai-web",
+      "platform": "Web",
+      "stack": [
+        "TypeScript",
+        "HTML/CSS"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "https://github.com/nova-backend-hub/recipebook",
+      "downloadUrl": "",
+      "githubReleaseUrl": "",
+      "downloadType": "REPO",
+      "fileSizeBytes": 0
+    },
+    {
+      "id": "check-in",
+      "title": "Check-In",
+      "tagline": "Zero-dependency HTML check-in web utility.",
+      "description": "Lightweight browser utility built in vanilla HTML/CSS/JS for rapid status and attendance check-ins.",
+      "category": "ai-web",
+      "platform": "Web",
+      "stack": [
+        "HTML",
+        "JavaScript"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "https://github.com/nova-backend-hub/check-in",
+      "downloadUrl": "",
+      "githubReleaseUrl": "",
+      "downloadType": "REPO",
+      "fileSizeBytes": 0
+    },
+    {
+      "id": "nova-suite",
+      "title": "Nova Ecosystem",
+      "tagline": "Multi-part Nova client, backend API service, and core Nova workspace.",
+      "description": "Full-stack Nova platform uniting nova-backend (JavaScript server services), NovaClient interface, and Nova core modules.",
+      "category": "ai-web",
+      "platform": "Full Stack",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "REST API"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "https://github.com/nova-backend-hub/Nova",
+      "downloadUrl": "",
+      "githubReleaseUrl": "",
+      "downloadType": "REPO",
+      "fileSizeBytes": 0
+    },
+    {
+      "id": "macos-tigerlake-efi",
+      "title": "macOS Tiger Lake OpenCore EFI & WhateverXe Lab",
+      "tagline": "Sanitized OpenCore EFI (MacBookPro16,2), custom Darwin ACPI patches, and 64-bit Mach-O kext analysis scripts.",
+      "description": "Custom OpenCore EFI bundle for 11th Gen Intel Tiger Lake laptops with MacBookPro16,2 SMBIOS (hardware serials redacted), SSDT-NVME_OFF.dsl/.aml Darwin _OSI patch, VoodooI2C/AirportItlwm/AMFIPass kext configuration, and PowerShell 64-bit Mach-O binary inspection scripts for WhateverXe.kext.",
+      "category": "macos-efi",
+      "platform": "macOS / EFI",
+      "stack": [
+        "OpenCore",
+        "ACPI ASL",
+        "WhateverXe",
+        "Mach-O",
+        "PowerShell"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "",
+      "downloadUrl": "/downloads/macOS-TigerLake-OpenCore-EFI.zip",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/macOS-TigerLake-OpenCore-EFI.zip",
+      "downloadType": "ZIP",
+      "fileSizeBytes": 38910866
+    },
+    {
+      "id": "ne3ma-mvpn",
+      "title": "Ne3ma MVPN",
+      "tagline": "Split-tunneling Android OpenVPN client dedicated to Messenger via live ranked VPNGate nodes.",
+      "description": "Jetpack Compose Android application built around VpnService split-tunneling for Facebook Messenger (com.facebook.orca) using live VPNGate feeds with server bandwidth, latency, and reachability ranking.",
+      "category": "android",
+      "platform": "Android",
+      "stack": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Android VpnService",
+        "VPNGate"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "",
+      "downloadUrl": "/downloads/Ne3ma-MVPN.apk",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/Ne3ma-MVPN.apk",
+      "downloadType": "APK",
+      "fileSizeBytes": 32091836
+    },
+    {
+      "id": "voyce-studio",
+      "title": "Voyce — Local AI Voice Studio",
+      "tagline": "Offline Windows Electron + Python voice cloning and live voice changer studio for English and Arabic.",
+      "description": "Portable desktop speech studio (Voyce-win32-x64) running Chatterbox English & Arabic Multilingual V3 models locally with smart number-to-word expansion, custom WAV player, and buffered live voice changing.",
+      "category": "windows",
+      "platform": "Windows / AI",
+      "stack": [
+        "Electron",
+        "Python",
+        "Chatterbox V3",
+        "Arabic/English TTS"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "",
+      "downloadUrl": "",
+      "githubReleaseUrl": "",
+      "downloadType": "LOCAL",
+      "fileSizeBytes": 0
+    },
+    {
+      "id": "wathiqa-android",
+      "title": "Wathiqa 2.0 Android",
+      "tagline": "Private family document vault APK with Arabic/English search tags, expiry alerts, PDF export, and .ics calendar.",
+      "description": "Android companion for Wathiqa 2.0 supporting multi-tag Arabic/English document search, renewal countdown reminders, recoverable Trash & Archive, Android Print / Save as PDF, and .ics calendar exports.",
+      "category": "android",
+      "platform": "Android",
+      "stack": [
+        "Android",
+        "Java/Kotlin",
+        "PDF/Print",
+        "ICS Calendar"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "",
+      "downloadUrl": "/downloads/Wathiqa.apk",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/Wathiqa.apk",
+      "downloadType": "APK",
+      "fileSizeBytes": 43586595
+    },
+    {
+      "id": "dawood-files-tv",
+      "title": "Dawood Files TV (Tizen WGT)",
+      "tagline": "Samsung Tizen TV 6.5+ native .wgt package with 4-digit/QR iPhone pairing and offline AVPlay playback.",
+      "description": "Installed Samsung Smart TV Web Application (.wgt) pairing with the iPhone client via 4-digit code or QR to receive Oracle-transcoded MP4/MP3/JPEG media and play offline via Samsung AVPlay.",
+      "category": "android",
+      "platform": "Samsung Tizen TV",
+      "stack": [
+        "Tizen TV 6.5+",
+        "JavaScript",
+        "Samsung AVPlay",
+        "QR Pairing"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "",
+      "downloadUrl": "/downloads/DawoodFilesTV.wgt",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/DawoodFilesTV.wgt",
+      "downloadType": "WGT",
+      "fileSizeBytes": 42034
+    },
+    {
+      "id": "hajez-android",
+      "title": "Hajez Android",
+      "tagline": "Compiled Android arm64 preview build built in local Codex workspace.",
+      "description": "Mobile React Native Android arm64 release APK generated from the local Hajez mobile workspace.",
+      "category": "android",
+      "platform": "Android",
+      "stack": [
+        "React Native",
+        "Android arm64"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "",
+      "downloadUrl": "/downloads/Hajez-arm64-preview.apk",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/Hajez-arm64-preview.apk",
+      "downloadType": "APK",
+      "fileSizeBytes": 27242931
+    },
+    {
+      "id": "flt-android",
+      "title": "FLT Android",
+      "tagline": "Compiled Android utility APK distributed alongside Wathiqa release builds.",
+      "description": "Standalone Android APK build packaged in the DocViewer release distribution directory.",
+      "category": "android",
+      "platform": "Android",
+      "stack": [
+        "Android",
+        "APK"
+      ],
+      "year": "2026",
+      "featured": false,
+      "repoUrl": "",
+      "downloadUrl": "/downloads/FLT.apk",
+      "githubReleaseUrl": "https://github.com/nova-backend-hub/portfolio/releases/download/v1.0.0/FLT.apk",
+      "downloadType": "APK",
+      "fileSizeBytes": 4611277
+    }
+  ]
 }

@@ -684,6 +684,10 @@ app.delete('/api/certificates/:id', requireAuth, (req, res) => {
   res.json({ ok: true });
 });
 
+app.get('/favicon.ico', (_req, res) => {
+  res.redirect(302, '/favicon.svg');
+});
+
 // Fallback for SPA navigation
 app.use((req, res) => {
   if (req.path.startsWith('/api/')) {

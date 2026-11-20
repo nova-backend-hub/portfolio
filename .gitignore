@@ -1,0 +1,5 @@
+node_modules/
+downloads/
+uploads/
+data/auth.json
+.DS_Store
